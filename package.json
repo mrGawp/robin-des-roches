@@ -1,0 +1,14 @@
+{
+  "name": "index",
+  "version": "1.0.0",
+  "description": "Testing Grounds.",
+  "scripts": {
+    "lite": "lite-server --port 42001",
+    "start": "npm run lite"
+  },
+  "author": "Chris aka the gawp",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^1.3.1"
+  }
+}
