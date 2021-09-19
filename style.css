@@ -941,8 +941,13 @@ input {
 }
 @media screen and (max-width:890px) {
   .conTitle h1 {margin-left: 15.5%;}
-  .form-c {margin-left: 13.5%; width:70%;}
-  .submit {margin-left: 13.5%; margin-top:10%; width:70%;}
+  .form-c {
+    margin-left: 13.5%; 
+    width:70%;}
+  .submit {
+    margin-left: 13.5%; 
+    margin-top:10%; 
+    width:70%;}
 }
 @media screen and (max-width:350px) {
   .conTitle h1 {font-size: 1.3em; }
