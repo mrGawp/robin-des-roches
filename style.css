@@ -918,8 +918,6 @@ input {
 	margin-top:3%;
   margin-right:2px;
   font-style: none;
-  padding-left: 20px;
-  padding-right: 20px;
   border: none;
   border-radius: 3px;
   background: rgba(7, 7, 7, 0.7);
@@ -930,6 +928,7 @@ input {
   font-family: 'Poppins', sans-serif;
   font-size: 1em;
   text-transform: uppercase;
+  text-align: center;
   font-weight: 600;
   transition:0.6s;
   opacity: 0.75;
@@ -940,8 +939,15 @@ input {
   box-shadow: 3px 4px rgba(0, 0, 0, 0.649); 
   color: #000;
 }
+@media screen and (max-width:350px) {
+  .conTitle h1 {
+    font-size: 1.3em; 
+  }
+}
 @media screen and (max-width:890px) {
-  .conTitle h1 {margin-left: 15.5%;}
+  .conTitle h1 {
+    margin-left: 15.5%;
+  }
   .form-c {
     margin-left: 13.5%; 
     width:70%;}
@@ -949,9 +955,6 @@ input {
     margin-left: 13.5%; 
     margin-top:10%; 
     width:70%;}
-}
-@media screen and (max-width:350px) {
-  .conTitle h1 {font-size: 1.3em; }
 }
 /*FOOTER*/
 .footer {
