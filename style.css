@@ -933,6 +933,7 @@ input {
   font-weight: 600;
   transition:0.6s;
   opacity: 0.75;
+  -webkit-appearance: none;
 }
 .submit:hover {
 	background:#fff;
