@@ -972,6 +972,7 @@ input {
   height:auto;
   bottom:0;
   font-size: 20px;
+  margin-bottom:70px;
 }
 .foot-right {
   float: right;
