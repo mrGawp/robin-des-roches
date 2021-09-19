@@ -163,7 +163,7 @@ html {
     right: 0;
     background: #000000fa;
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 0.15s;
     padding-top: 60px;
     box-shadow: 2px 2px 2px 2px rgba(0,0,0,1);
     white-space: nowrap;
@@ -979,6 +979,7 @@ input {
   float: right;
   display: block;
   margin-right:20%;
+  margin-top: 5px;
 }
 .footer-r {
     opacity: 0.8;
@@ -987,17 +988,15 @@ input {
     white-space: nowrap;
     transition: 0.5s;
     color:rgb(136, 136, 136);
-    text-shadow: 2px 2px black;
 }
 .footer-c {
-  margin-top:-14px;
+  margin-top:-19px;
   opacity: 0.8;
   font-size: 0.43em;
   font-family: 'Lato', sans-serif;
   white-space: nowrap;
   transition: 0.5s;
   color:rgb(136, 136, 136);
-  text-shadow: 2px 2px black;
 }
 .foot-left {
   float: left;
@@ -1021,5 +1020,4 @@ input {
   white-space: nowrap;
   transition: 0.5s;
   color:rgb(218, 218, 218);
-  text-shadow: 2px 2px black;
 }
