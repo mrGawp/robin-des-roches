@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="only">
+<title>Customer Quote Recieve</title>
+
+</head>
+<body style="background-color: #fff;">
+
+<div class="parent" style="position: relative;width: 100%;height: auto;padding-top: 9px;padding-bottom: 9px;background-color: #f6f6f6;background: #f6f6f6;font-family: 'Radio Canada', sans-serif;">
+
+ <div class="header" style="position: relative;width: 95%;height: 80px;padding-top: 6px;padding-bottom: 6px;max-width: 600px;margin-left: auto;margin-right: auto;background-color: transparent;">
+   <img src="cid:logo" alt="/logo.png" class="logoImg" style="position: relative;object-fit: contain;width: 120px;height: auto;float: left;">
+   <a href="http://robindesroches.com/" class="contactUs_header" style="position: relative;font-size: 12px;text-decoration: none;margin-right: 6px;color: #000;float: right;"><img src="cid:contactUs" alt="/contactUs.png" class="logoImg" style="position: relative;object-fit: contain;width: 120px;height: auto;float: left;"></a>
+ </div>
+
+
+ <div class="container" style="width: 95%;height: auto;padding-top: 6px;padding-bottom: 6px;max-width: 600px;margin-left: auto;margin-right: auto;background-color: white;background: white;border-top: 1px solid #037971;">
+   
+  <div class="itemContainer" style="position: relative;width: 97%;height: auto;padding-bottom: 3px;margin-top: 9px;margin-left: auto;margin-right: auto;">
+    <p class="greeting" style="padding-top: 18px;font-size: 16px;font-weight: 600;color: #000;">Bonjour Mr / Mme <span class="spanStyleGreen" style="color: #037971;">{{lastname}}</span>,</p>
+  </div>
+
+  <div class="itemContainer" style="position: relative;width: 97%;height: auto;padding-bottom: 3px;margin-top: 9px;margin-left: auto;margin-right: auto;">
+    <p class="text" style="font-size: 14px;margin-top: 6px;margin-bottom: 0;font-weight: 500;color: #000;font-family: 'Radio Canada', sans-serif;">
+      Nous vous remercions pour votre demande d’estimation. Il nous fera plaisir de rendre votre projet réalité. 
+      Si nous avons des questions, nous tenterons de vous joindre dans les prochaines 24 heures ouvrables*. 
+      Pour toute question ou pour planifier la date de début des travaux, 
+      contactez-nous au 819-592-9977 ou par courriel robindesroches.ca@gmail.com
+    </p>
+  </div>
+
+  <div class="itemContainer" style="position: relative;width: 97%;height: auto;padding-bottom: 3px;margin-top: 9px;margin-left: auto;margin-right: auto;">
+    <a href="#" class="textInfo" style="font-size: 14px;font-weight: 700;color: #000;text-decoration: none;"><span class="spanStyleGreen" style="color: #037971;"><img src="cid:location" alt="/locationIcon.png" class="icon" style="height: 13px;width: auto;margin-right: 2px;margin-bottom: -3px;object-fit: contain;"> {{postalCode}}</span></a>
+  </div>
+
+  <div class="itemContainer" style="position: relative;width: 97%;height: auto;padding-bottom: 3px;margin-top: 9px;margin-left: auto;margin-right: auto;">
+    <a href="#" class="textInfo" style="font-size: 14px;font-weight: 700;color: #000;text-decoration: none;"><span class="spanStyleGreen" style="color: #037971;"><img src="cid:phone" alt="/phoneIcon.png" class="meGawp_icon" style="height: 9px;width: auto;margin-right: 2px;object-fit: contain;"> {{phone}}</span></a>
+  </div>
+
+  <div class="itemContainer" style="position: relative;width: 97%;height: auto;padding-bottom: 3px;margin-top: 9px;margin-left: auto;margin-right: auto;">
+    <p class="text" style="font-size: 14px;margin-top: 6px;margin-bottom: 0;font-weight: 500;color: #000;font-family: 'Radio Canada', sans-serif;">Cordialement,</p>
+    <p class="text" style="font-size: 14px;margin-top: 6px;margin-bottom: 0;font-weight: 500;color: #000;font-family: 'Radio Canada', sans-serif;">L‘équipe de Robin des roches</p>
+  </div>
+
+  <div class="itemContainer_under" style="position: relative;width: 97%;height: auto;padding-bottom: 3px;margin-top: 18px;margin-left: auto;margin-right: auto;">
+    <p class="estimation" style="font-size: 15px;color: #037971;font-weight: 700;width: fit-content;padding-bottom: 2px;border-bottom: 1px dotted #000;">Votre Estimation: <span class="spanStyleBlack" style="color: #000;">{{total}}$</span></p>
+    <pre class="text" style="font-size: 14px;margin-top: 6px;margin-bottom: 0;font-weight: 500;color: #000;font-family: 'Radio Canada', sans-serif;">{{services}}</pre>
+  </div>
+
+  <div class="itemContainer_centerCopyright" style="width: fit-content;position: relative;height: auto;margin-left: auto;margin-right: auto;margin-top: 35px;margin-bottom: 18px;">
+    <img src="cid:logo" alt="/logo.png" class="copyright_Img" style="width: 100px;height: auto;object-fit: contain;">
+    <p class="copyright_text" style="color: #262626;font-size: 7px;font-weight: 200;text-align: center;margin-left: 3px;">© 2020 Tous droits réservés.</p>
+  </div>
+
+  <div class="socialContainer" style="display: inline-block;text-align: center;width: 100%;height: fit-content;margin-top: 9px;margin-left: auto;margin-right: auto;">
+    <a href="https://www.instagram.com/robin_des_roches/"><img src="cid:instagram" alt="/instagramIcon.png" class="socialContainer_icon" style="height: 18px;width: 18px;margin-right: 6px;margin-bottom: -3px;margin-left: 6px;object-fit: contain;"></a>
+    <a href="https://www.facebook.com/aguAmenagement"><img src="cid:facebook" alt="/facebookIcon.png" class="socialContainer_icon" style="height: 18px;width: 18px;margin-right: 6px;margin-bottom: -3px;margin-left: 6px;object-fit: contain;"></a>
+  </div>
+
+  <div class="meGawp" style="display: block;text-align: center;width: 100%;height: fit-content;margin-top: 32px;margin-left: auto;margin-right: auto;">
+    <a href="mailto:christianneeson09@gmail.com" class="meGawp_name" style="color: #000;text-decoration: none;border-bottom: 1px solid #000;font-size: 9px;"><img src="cid:codeIcon" alt="/laptopCodeIcon.png" class="icon" style="height: 13px;width: auto;margin-right: 2px;margin-bottom: -3px;object-fit: contain;"> Christian Neeson</a>
+    <br>
+    <a href="#" class="meGawp_phone" style="color: #1f1f1f;text-decoration: none;font-size: 8px;">613-282-5664</a>
+  </div>
+
+ </div>
+
+</div>
+
+</body>
+</html>

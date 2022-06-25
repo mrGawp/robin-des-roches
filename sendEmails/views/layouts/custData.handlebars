@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="only">
+<title>Robin des Roches Customer Data</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;400;500;600;700&display=swap');
+body {
+background-color: #efefef;
+font-family: 'Radio Canada', sans-serif;
+    }
+.container {
+background-color: #fff;
+margin-bottom: 69px;
+margin-left: 6px;
+margin-right: 6px;
+padding-top: 18px;
+padding-bottom: 18px;
+}
+.topInfo {
+font-size: 12px;
+color: #000;
+font-weight: 600;
+margin-left: 12px;
+margin-right: 12px; 
+}
+h1 {
+font-size: 14px;
+color: #000;
+font-weight: 600;
+margin-left: 12px;
+margin-right: 12px;
+margin-top: 4px;
+margin-bottom: 6px;
+}
+h2 {
+color: #000;
+font-weight: 300;
+font-size: 15px;
+margin-bottom: 0;
+margin-left: 6px;
+margin-right: 6px;
+}
+p {
+color: #000;
+font-weight: 500;
+font-size: 17px;
+margin-top: 0;
+margin-bottom: 14px;
+margin-left: 6px;
+margin-right: 6px;
+text-decoration: none;
+}
+pre {
+color: #000;
+font-weight: 500;
+font-size: 16px;
+margin-top: 6px;
+margin-bottom: 14px;
+margin-left: 6px;
+margin-right: 6px;
+padding-top: 6px;
+font-family: 'Radio Canada', sans-serif;
+}
+a {
+color: #000;
+font-weight: 500;
+font-size: 17px;
+margin-top: 0;
+margin-bottom: 14px;
+margin-left: 0;
+margin-right: 0;  
+text-decoration: none;
+}
+.group {
+   margin-bottom: 69px;
+}
+.InfoText_group {
+    font-weight: 600;
+    color: #1e87f0;
+    font-size: 16px;
+    margin-left: 6px;
+    margin-right: 6px; 
+    margin-top: 9px;
+    margin-bottom: 0;
+    border-bottom: 1px dotted #000; 
+}
+
+</style>
+</head>
+<body>
+<h1 class="topInfo">{{priceGraph}}</h1>
+<h1>Customer Data - unix{{reqTime}}</h1>
+
+<div class="container">
+<h1 class="InfoText_group">General</h1>
+<div class="group">
+    <h2>First name:</h2>
+    <p>{{firstName}}</p>
+    <h2>Last name:</h2>
+    <p>{{lastName}}</p>
+    <h2>Company name:</h2>
+    <p>{{companyName}}</p>
+    <h2>Email:</h2>
+    <p>{{email}}</p>
+    <h2>Phone number:</h2>
+    <p>{{phoneNumber}}</p>
+</div>
+
+<h1 class="InfoText_group">Address</h1>
+<div class="group">
+    <h2>Address:</h2>
+    <p>{{address}}</p>
+    <h2>City:</h2>
+    <p>{{city}}</p>
+    <h2>Province:</h2>
+    <p>{{province}}</p>
+    <h2>Postal code:</h2>
+    <p>{{postalCode}}</p>
+</div>
+
+<h1 class="InfoText_group">Services</h1>
+<div class="group">
+    <pre>{{services}}</pre>
+</div>
+
+<h1 class="InfoText_group">Optional</h1>
+<div class="group">
+    <h2>Requested start date:</h2>
+    <p>{{date}}</p>
+    <h2>Info:</h2>
+    <p>{{info}}</p>
+</div>    
+
+<h1 class="InfoText_group">Total</h1>
+    <h2>Total before:</h2>
+    <p>{{totalBefore}}$</p>
+    <h2>Total after:</h2>
+    <p>{{totalAfter}}$</p>
+</div>
+
+</body>
+</html>

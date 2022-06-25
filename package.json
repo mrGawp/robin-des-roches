@@ -1,0 +1,21 @@
+{
+  "name": "nodeserver_robindesroches_quoteformv1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "gawp / christian n",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.3",
+    "nodemailer-express-handlebars": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
