@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/fontello-embedded.css">
+    <link rel="stylesheet" href="./fullcalendar/main.css">
+    <link rel="stylesheet" href="./css/quoteForm.css">
+    <link rel="icon" type="image/x-icon" href="./imgs/robinDesRoches_logoWhite.png">
+    <script src='fullcalendar/main.js'></script>
+    <script src="./anime.min.js"></script>
+    <title>Robin Des Roches</title>
+</head>
+<body id="body">
+
+<div class="headerMainP">
+<span class="headerMainSpan"></span>
+
+<div class="headerMobile">
+  <div class="left_rightContainer leftC">
+    <a href="./" class="leftAimgHome">
+    <img src="./imgs/robinDesRoches_textLogoWhite.png" alt="/imgs/robinDesRoches_textLogoWhite.png">
+    </a>  
+  </div>
+
+  <div class="left_rightContainer rightC">
+    <div class="ham_container">
+      <input type="checkbox" class="NavHam_checkInput"/>
+      <svg id="hamsvg" class="ham hamRotate" viewBox="0 0 100 100" width="80">
+      <path
+      class="line top"
+      d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
+      <path
+      class="line middle"
+      d="m 70,50 h -40" />
+      <path
+      class="line bottom"
+      d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
+      </svg>
+  </div>
+  </div>
+</div>
+
+<div class="mobile_navContainer">
+  <div class="mobile_navAc">
+    <a href="./" class="headerA headerA-mobile"><i class="icon-home"></i> Page principale</a>
+    <a href="#services" class="headerA headerA-mobile"><i class="icon-cubes"></i> Services</a>
+    <a href="./quote_form.html" class="headerA headerA-mobile"><i class="icon-doc-text"></i> Obtenir une estimation</a>
+  </div>
+
+</div>
+<!-- end mobile header -->
+
+<div class="headerMain">
+  <div class="left_rightContainer leftC">
+  <a href="./" class="leftAimgHome">
+  <img src="./imgs/robinDesRoches_textLogoWhite.png" alt="/imgs/robinDesRoches_textLogoWhite.png">
+  </a>  
+</div>
+  <div class="left_rightContainer rightC">
+    <a href="./" class="headerA headerA-desktop"><i class="icon-home headerA-dekstop_i"></i> Page principale</a>
+    <a href="#services" class="headerA headerA-desktop"><i class="icon-cubes headerA-dekstop_i"></i> Services</a>
+    <a href="./quote_form.html" class="headerA headerA-desktop"><i class="icon-doc-text headerA-dekstop_i"></i> Obtenir une estimation</a>
+  </div>
+</div>
+</div>
+<div class="headerUnder">
+  <a href="mailto:robindesroches.ca@gmail.com" class="headerUnder_a"><i class="icon-mail-alt HeaderUnder_aIcon"></i>robindesroches.ca@gmail.com</a>
+  <a href="tel:819-592-9977" class="headerUnder_a"><i class="icon-phone HeaderUnder_aIcon"></i>819-592-9977</a>
+</div>
+
+<div class="headerLarge">
+<h1 class="reqQuoteH1">Obtenir une estimation</h1>
+<p class="reqQuoteP">
+  Soumettez les informations suivantes ci-dessous et recevez votre estimation par e-mail
+</p>
+</div>
+
+
+<div class="sticky-wrapper">
+<div class="headerBackground">
+  <i class="blobBlur bigBlur_greenblue"></i>
+  <i class="blobBlur smallBlur_greenblue"></i>
+  <i class="blobBlur xsmallBlur_greenblue"></i>
+  <i class="blobBlur bigBlur_greenyellow"></i>
+  <i class="blobBlur smallBlur_greenyellow"></i>
+  <i class="mainAni_changer"></i>
+</div>
+</div>
+
+<div class="formP">
+  <div class="form_ip">
+  <form action="/send" method="POST" enctype="multipart/form-data">
+    <div class="form_top-sticky"></div>
+        <div class="formSection_Container">
+        <h2 class="formP_titles">Contact</h2>
+        <input type="text" class="checkService getServiceInput" id="firstname" placeholder="Prénom" required>
+        <input type="text" class="checkService getServiceInput" id="lastname" placeholder="Nom" required>
+        <input type="text" class="getServiceInput" id="companyName" placeholder="Nom des compagnie (optionnel)">
+        <input type="email" class="checkService getServiceInput" id="email" placeholder="Adresse courriel" required>
+        <input type="tel" class="checkService getServiceInput" id="phonenumber" placeholder="Numéro de téléphone" required>
+      </div>
+      <div class="formSection_Container">
+        <h2 class="formP_titles">Addresse</h2>
+        <input type="text" class="checkService getServiceInput" id="address" placeholder="Adresse civique" required>
+        <input type="text" class="checkService getServiceInput" id="city" placeholder="Ville" required>
+        <input type="text" class="checkService getServiceInput" id="province" placeholder="Province" required>
+        <input type="text" class="checkService getServiceInput" id="postalcode" placeholder="Code postale" required>
+      </div>
+<div class="formSection_Container" id="Service_Container">
+<h2 class="formP_titles" id="service_Options_title">Choisissez un service</h2>
+<div class="servicePicker_ContainerP">
+<h1>Réparation</h1>
+<div class="itemRow">
+  <div class="servicePicker_cardP" id="Réparation_du_pavé">
+  <div class="servPickCard_inner">
+     <div class="imgContainer">
+     <img src="./imgs/interlockImgAni.png" alt="/imgs/interlockImgAni.png">
+     </div>
+     <div class="IconContainer">
+     <i class="icon-plus-1"></i>
+     <i class="icon-check"></i>
+     </div>
+     <h3 class="serviceTitles serviceTitlesClick">Réparation du pavé</h3>
+  </div>
+  </div>
+  <div class="servicePicker_cardP" id="Réparation_des_marches">
+  <div class="servPickCard_inner">
+     <div class="imgContainer">
+     <img src="./imgs/stairsImgAni.png" alt="/imgs/stairsImgAni.png">
+     </div>
+     <div class="IconContainer">
+     <i class="icon-plus-1"></i>
+     <i class="icon-check"></i>
+     </div>
+     <h3 class="serviceTitles serviceTitlesClick">Réparation des marches</h3>
+  </div>
+  </div>
+ </div>
+ <h1>Nettoyages</h1>
+ <div class="itemRow">
+ <div class="servicePicker_cardP" id="Entrée_simple">
+     <div class="servPickCard_inner">
+            <div class="imgContainer">
+            <img src="./imgs/singleentranceImgAni.png" alt="/imgs/singleentranceImgAni.png">
+            </div>
+            <div class="IconContainer">
+            <i class="icon-plus-1"></i>
+            <i class="icon-check"></i>
+            </div>
+            <h3 class="serviceTitles serviceTitlesClick">Entrée simple</h3>
+     </div>
+     </div>
+ <div class="servicePicker_cardP" id="Entrée_double">
+     <div class="servPickCard_inner">
+            <div class="imgContainer">
+            <img src="./imgs/doubleentranceImgAni.png" alt="/imgs/doubleentranceImgAni.png">
+            </div>
+            <div class="IconContainer">
+            <i class="icon-plus-1"></i>
+            <i class="icon-check"></i>
+            </div>
+            <h3 class="serviceTitles serviceTitlesClick">Entrée double</h3>
+     </div>
+     </div>
+ <div class="servicePicker_cardP" id="Bordures_de_stationnement">
+     <div class="servPickCard_inner">
+            <div class="imgContainer">
+            <img src="./imgs/borderImgAni.png" alt="/imgs/borderImgAni.png">
+            </div>
+            <div class="IconContainer">
+            <i class="icon-plus-1"></i>
+            <i class="icon-check"></i>
+            </div>
+            <h3 class="serviceTitles serviceTitlesClick">Bordures de stationnement</h3>
+     </div>
+     </div>
+ </div>
+        </div>
+       </div>
+
+
+      <div class="formSection_Container" id="services_container">
+        <h2 class="formP_titles">Vos services</h2>
+        <p id="noServices_id">Aucun service ajouté</p>
+      </div>
+      
+      <div class="formSection_Container">
+        <h2 class="formP_titles">Choisissez une date de début des travaux</h2>
+        <div class="calandarP">
+        <div id='calendar'></div> 
+    </div>
+      </div>
+
+      <div class="formSection_Container">
+        <h2 class="formP_titles">Derniers détails</h2>
+        <div class="droparea">
+            <h3>
+              Déposez des photos ou cliquez ci-dessous (optionnel)</h3>
+            <label for="file-upload" class="custom-file-upload"><i class="icon-upload-cloud"></i>Télécharger</label>
+            <input id="file-upload" name="fileClick_upload" type="file" multiple/>
+            <div class="dragNdrop_i">
+            <p id="dragNdrop_size">0Bytes / 50MB</p>
+            <p id="dragNdrop_files">Aucun fichier téléchargé</p>
+            <p id="dragNdrop_iPara">Faites glisser et déposez pour télécharger des photos.
+              Jusqu'à 25 fichiers et un maximum de 50 MB.
+              C'est le maximum que nous pouvons traiter par e-mail et si dépassé votre
+              la demande ne peut pas être traitée.
+             Si vous avez besoin de partager des fichiers plus volumineux, envoyez-nous un e-mail à robindesroches.ca@gmail.com.
+            </p>
+            <p class="dragNdrop_iNotAccepted" style="opacity: 0; margin-right: 2%;">Pas un type de fichier accepté</p>
+         </div>
+        </div>
+
+        <textarea placeholder="Informations additionnelles (optionnel)" id="textbox" rows="9" class="getServiceInput"></textarea>
+
+      </div>
+      <div class="formSection_Container">
+          <div class="submit_p">
+              <button id="submitButtonClick" type="button"></button>
+              <p>Soumettre</p>
+              <div class="submitIcon_container">
+              <i class="icon-paper-plane" id="submit_plane"></i>
+              <i class="icon-ok" id="submit_check"></i>
+            </div>
+          </div>
+          <p class="submitErr">*Paramètres manquants</p>
+      </div>
+    </form>
+    <div class="submitSpan_P">
+      <span class="submitSpan"></span>
+    </div>
+  </div>
+ </div>  
+
+ <div class="footer">
+  <div class="footer_topP">
+      <img class="footerImg" src="./imgs/robinDesRoches_textLogoBlack.png" alt="/imgs/robinDesRoches_textLogoBlack.png">
+      <div class="footerCol topMe">
+      <p><i class="icon-code"></i>Developed by Christian Neeson</p>
+      <a href="mailto:christianneeson09@gmail.com"><i class="icon-mail-alt"></i>christianneeson09@gmail.com</a>
+      <a href="tel:6132825664"><i class="icon-phone"></i>613-282-5664</a>
+      
+  </div>
+  </div>
+  <div class="footer_topP" style="margin-left: 1.5%;">
+      <div class="footerCol">
+          <p style="margin-left: 4%;">Links</p>
+          <a href="./"><i class="icon-home"></i> Page principale</a>
+          <a href="#services"><i class="icon-cubes"></i> Services</a>
+          <a href="./quote_form.html"><i class="icon-doc-text"></i> Obtenir une estimation</a>
+      </div>
+      <div class="footerRow">
+          <a href="https://www.facebook.com/aguAmenagement"><i class="icon-facebook" style="font-size: 1.5rem;"></i></a>
+          <a href="https://www.instagram.com/robin_des_roches/"><i class="icon-instagram" style="font-size: 1.5rem;"></i></a>
+      </div>
+  </div>
+</div>
+
+<script src="./scripts/quoteForm.js"></script>
+</body>
+</html>
