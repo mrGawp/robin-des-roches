@@ -6,7 +6,7 @@ My cousin's website for his landscaping company Robin Des Roches.
 Built entirely from scratch in vanilla HTML, CSS & javascript.
 
 Frontend:
-- vanilla css, html & anine.js.
+- vanilla css, html & anime.js.
 
 Backend:
 - nodeJS
